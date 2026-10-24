@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.4.5</version>
+    <relativePath/>
+  </parent>
+  <groupId>com.houseaccount</groupId>
+  <artifactId>house-account</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>house-account</name>
+  <modules>
+    <module>common</module>
+    <module>party-service</module>
+    <module>catalog-service</module>
+    <module>price-service</module>
+    <module>order-service</module>
+    <module>credit-service</module>
+    <module>tax-service</module>
+    <module>stock-service</module>
+    <module>invoice-service</module>
+    <module>ledger-service</module>
+    <module>fulfillment-service</module>
+    <module>shipment-service</module>
+    <module>notify-service</module>
+    <module>timeline-service</module>
+  </modules>
+  <properties>
+    <java.version>17</java.version>
+  </properties>
+</project>
